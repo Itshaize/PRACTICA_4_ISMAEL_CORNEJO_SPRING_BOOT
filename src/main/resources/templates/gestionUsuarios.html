@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Usuarios</title>
+</head>
+<body>
+<h1>Información de usuarios</h1>
+<ul class="list-group">
+	<li class="list-group-item">Nombre: 
+		<span th:text="${Usuario.nombre}"></span>
+	</li>
+	
+	<li class="list-group-item">Cedula:
+		<span th:text="${Usuario.cedula}"></span>
+	</li>
+	
+	<li class="list-group-item">Correo:
+		<span th:text="${Usuario.correo}"></span>
+	</li>
+</ul>
+</body>
+</html>
